@@ -1,0 +1,60 @@
+{
+  "classification_report": {
+    "COVID19": {
+      "precision": 1.0,
+      "recall": 0.9568965517241379,
+      "f1-score": 0.9779735682819384,
+      "support": 116.0
+    },
+    "NORMAL": {
+      "precision": 0.9201277955271565,
+      "recall": 0.9085173501577287,
+      "f1-score": 0.9142857142857143,
+      "support": 317.0
+    },
+    "PNEUMONIA": {
+      "precision": 0.9641203703703703,
+      "recall": 0.9742690058479532,
+      "f1-score": 0.9691681210005817,
+      "support": 855.0
+    },
+    "accuracy": 0.9565217391304348,
+    "macro avg": {
+      "precision": 0.9614160552991756,
+      "recall": 0.9465609692432734,
+      "f1-score": 0.9538091345227447,
+      "support": 1288.0
+    },
+    "weighted avg": {
+      "precision": 0.9565244005037074,
+      "recall": 0.9565217391304348,
+      "f1-score": 0.9564536093204763,
+      "support": 1288.0
+    }
+  },
+  "per_class_auc": {
+    "COVID19": 0.9998749558667765,
+    "NORMAL": 0.9899287540569254,
+    "PNEUMONIA": 0.9917480383020677,
+    "micro": null
+  },
+  "macro_auc": 0.9938505827419232,
+  "micro_auc": null,
+  "confusion_matrix": [
+    [
+      111,
+      3,
+      2
+    ],
+    [
+      0,
+      288,
+      29
+    ],
+    [
+      0,
+      22,
+      833
+    ]
+  ]
+}
