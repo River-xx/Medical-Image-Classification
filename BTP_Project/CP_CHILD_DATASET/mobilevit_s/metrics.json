@@ -1,0 +1,44 @@
+{
+  "classification_report": {
+    "Non-Polyp": {
+      "precision": 0.9770491803278688,
+      "recall": 0.9834983498349835,
+      "f1-score": 0.9802631578947368,
+      "support": 303.0
+    },
+    "Polyp": {
+      "precision": 0.9528301886792453,
+      "recall": 0.9351851851851852,
+      "f1-score": 0.9439252336448598,
+      "support": 108.0
+    },
+    "accuracy": 0.9708029197080292,
+    "macro avg": {
+      "precision": 0.964939684503557,
+      "recall": 0.9593417675100844,
+      "f1-score": 0.9620941957697984,
+      "support": 411.0
+    },
+    "weighted avg": {
+      "precision": 0.9706850657340699,
+      "recall": 0.9708029197080292,
+      "f1-score": 0.9707145062670319,
+      "support": 411.0
+    }
+  },
+  "per_class_auc": {
+    "Polyp": 0.993032636596993
+  },
+  "macro_auc": 0.993032636596993,
+  "micro_auc": 0.993032636596993,
+  "confusion_matrix": [
+    [
+      298,
+      5
+    ],
+    [
+      7,
+      101
+    ]
+  ]
+}

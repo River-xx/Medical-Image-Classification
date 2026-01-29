@@ -1,0 +1,44 @@
+{
+  "classification_report": {
+    "Adenoma": {
+      "precision": 0.966931216931217,
+      "recall": 0.9851752021563343,
+      "f1-score": 0.9759679572763685,
+      "support": 1484.0
+    },
+    "Hyperplastic": {
+      "precision": 0.9879584017515052,
+      "recall": 0.9730458221024259,
+      "f1-score": 0.9804454101032047,
+      "support": 1855.0
+    },
+    "accuracy": 0.9784366576819407,
+    "macro avg": {
+      "precision": 0.977444809341361,
+      "recall": 0.97911051212938,
+      "f1-score": 0.9782066836897867,
+      "support": 3339.0
+    },
+    "weighted avg": {
+      "precision": 0.9786129862758215,
+      "recall": 0.9784366576819407,
+      "f1-score": 0.9784554310690553,
+      "support": 3339.0
+    }
+  },
+  "per_class_auc": {
+    "Hyperplastic": 0.9981916725394323
+  },
+  "macro_auc": 0.9981916725394323,
+  "micro_auc": 0.9981916725394323,
+  "confusion_matrix": [
+    [
+      1462,
+      22
+    ],
+    [
+      50,
+      1805
+    ]
+  ]
+}
